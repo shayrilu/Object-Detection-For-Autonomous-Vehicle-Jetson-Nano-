@@ -19,5 +19,9 @@ Steps:
 # Step 1: Train Yolov5
 Firstly, the dataset is my custom dataset and annotated using Roboflow. 
 The Yolo training is done at the Google Colab. 
+The model is saved as a .pt file.
+This pt file will be copy into the Jetson Nano.
 
 # Step 2: Jetson Nano Inference
+1. Create a conda environment and activate that environment.
+  cd archi
