@@ -49,8 +49,9 @@ This pt file will be copy into the Jetson Nano for inference later.
 ## Step 3: Jetson Nano Inference
 1. Copy the trained yolo file from step 1 which is the pt file and paste into the "models" folder under the "Yolov5" directory.
 2. Cd into the yolov5 directory.
-3. Run the inference: `python detect.py --weights ./models/model.pt --conf 0.45 --source 0` //model.pt is the name of the model
-                                                                                            //conf is the min confidence level for detection 
-                                                                                            //source 0 will use the webcam 
-                                                                                            //       image.jpg for image
-                                                                                            //       video.mp4 for video                                   
+3. Run the inference: `python detect.py --weights ./models/model.pt --conf 0.45 --source 0` 
+#model.pt is the name of the model
+#conf is the min confidence level for detection 
+#source 0 will use the webcam
+#source image.jpg for image
+#video.mp4 for video                                   
