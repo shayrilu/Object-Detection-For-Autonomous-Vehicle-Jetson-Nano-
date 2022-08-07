@@ -1,7 +1,7 @@
 # Object-Detection-For-Autonomous-Vehicle-Jetson-Nano-
 This is my project for Deep Learning in Intelligent Video Analytics and Computer Vision Workshop in IIUM.
 
-This project is an object detection for autonomous vehicles using the Yolov5 deployed at the Jetson Nano. The framework is the Pytorch and is run on Google Colab.  
+This project is an object detection for autonomous vehicles using the Yolov5 deployed at the Jetson Nano. The framework is used the Pytorch and training of the model will be done in Google Colab.  
 
 # Hardware Requirement:
 1. Jetson Nano 2GB
