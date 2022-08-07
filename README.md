@@ -12,8 +12,9 @@ This project is an object detection for autonomous vehicles using the Yolov5 dep
 6. Monitor
 7. DisplayPort connector
 
+
 Steps:
-1. Train Yolov5 on custom dataset on a laptop which use GPU to reduce training duration.
+1. Train a Yolov5 on custom dataset on a laptop using Google Colab.
 2. Jetson Nano setup. 
 3. Inference on Jetson Nano.
 
