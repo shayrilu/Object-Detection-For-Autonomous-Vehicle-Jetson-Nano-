@@ -40,11 +40,10 @@ This pt file will be copy into the Jetson Nano for inference later.
 4. Run the setup.py: `python3.8 setup.py install`
 
 ### 2c) Install Torchvision for GPU
-1. Git clone the torchvision repo: `git clone https://github.com/pytorch/vision`
-2. Cd into the vision folder: `cd vision/`
-3. Git checkout: `git checkout v0.8.`
-4. Run the setup.py: `python3 setup.py bdist_wheel`
-5. Run the whl file: `python3 -m pip install dist/torchvision-0.8.0a0+291f7e2-cp38-cp38-linux_aarch64.whl`
+1. Pre-install some required lib `sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev`
+2. Git clone the torchvision repo: `git clone --branch v0.5.0 https://github.com/pytorch/vision torchvision`
+3. Cd into the vision folder: `cd torchvision/`
+4. Run the setup.py: `python setup.py install`
 
 ## Step 3: Jetson Nano Inference
 1. Copy the trained yolo file from step 1 which is the pt file and paste into the "models" folder under the "Yolov5" directory.
