@@ -29,7 +29,7 @@ This pt file will be copy into the Jetson Nano for inference later.
 1. Create a conda environment with python version 3.8 and activate that environment.
 2. Create a folder for the project and cd into the folder.
 3. Clone the Yolo repository: `git clone https://github.com/ultralytics/yolov5` and cd into the yolov5 `cd yolov5/`
-4. Open the requirements.txt and add '#' at the leftmost line of torch and torchvision. 
+4. Open the requirements.txt and add '#' at the leftmost line of torch and torchvision and save the file. 
 > #torch>=1.7.0 #torchvision>=0.8.1
 5. Install the requirements: `pip install -r requirements.txt`
 
