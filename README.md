@@ -1,10 +1,13 @@
 # Object-Detection-For-Autonomous-Vehicle-Jetson-Nano-
+![detection-inference](https://user-images.githubusercontent.com/73321317/184523962-cdc3f439-8109-432c-aef8-8d1d54136a6a.jpg)
+
 This is my project for Deep Learning in Intelligent Video Analytics and Computer Vision Workshop in IIUM.
 
 This project is an object detection for autonomous vehicles using the Yolov5 deployed at the Jetson Nano. The framework used is the Pytorch and the training of the model will be done in Google Colab.  
 
 # Hardware Requirement:
-1. Jetson Nano 2GB
+![jetson-nano](https://user-images.githubusercontent.com/73321317/184523855-dccd188b-28bd-459e-a13c-0118a0ed8810.jpg)
+1. Jetson Nano
 2. 5V DC Barrel jack (or Micro-USB power supply)
 3. MicroSD card (32GB UHS-1 minimum recommended)
 4. Logitech C270 HD Webcam
