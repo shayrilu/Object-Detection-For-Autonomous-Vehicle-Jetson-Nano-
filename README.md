@@ -6,7 +6,6 @@ This is my project for Deep Learning in Intelligent Video Analytics and Computer
 Link to the [YouTube video](https://youtu.be/CpH7HJcMdg4).
 
 This project is an object detection for autonomous vehicles using the Yolov5 deployed at the Jetson Nano. The framework used is the Pytorch and the training of the model will be done in Google Colab. 
-Video
 
 # Hardware Requirement:
 ![jetson-nano](https://user-images.githubusercontent.com/73321317/184523855-dccd188b-28bd-459e-a13c-0118a0ed8810.jpg)
