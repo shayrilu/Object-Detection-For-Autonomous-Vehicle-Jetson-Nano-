@@ -7,7 +7,7 @@ Link to the [YouTube video](https://youtu.be/CpH7HJcMdg4).
 
 This project is an object detection for autonomous vehicles using the Yolov5 deployed at the Jetson Nano. The framework used is the Pytorch and the training of the model will be done in Google Colab. 
 
-# Hardware Requirement:
+# Hardware Requirements:
 ![jetson-nano](https://user-images.githubusercontent.com/73321317/184523855-dccd188b-28bd-459e-a13c-0118a0ed8810.jpg)
 1. Jetson Nano
 2. 5V DC Barrel jack (or Micro-USB power supply)
@@ -19,7 +19,7 @@ This project is an object detection for autonomous vehicles using the Yolov5 dep
 
 
 # Steps:
-1. Train a Yolov5 on custom dataset on a laptop using Google Colab.
+1. Train a Yolov5 on custom dataset in Google Colab.
 2. Jetson Nano setup. 
 3. Inference on Jetson Nano.
 
