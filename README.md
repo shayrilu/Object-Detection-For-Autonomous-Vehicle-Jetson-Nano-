@@ -60,3 +60,4 @@ This pt file will be copy into the Jetson Nano for inference later.
 #source image.jpg for image
 #video.mp4 for video                                   
 
+Link to [video](https://youtu.be/CpH7HJcMdg4)
