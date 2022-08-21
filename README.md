@@ -2,6 +2,7 @@
 ![detection-inference](https://user-images.githubusercontent.com/73321317/184523962-cdc3f439-8109-432c-aef8-8d1d54136a6a.jpg)
 
 This is my project for Deep Learning in Intelligent Video Analytics and Computer Vision Workshop in IIUM.
+
 Link to [video](https://youtu.be/CpH7HJcMdg4)
 
 This project is an object detection for autonomous vehicles using the Yolov5 deployed at the Jetson Nano. The framework used is the Pytorch and the training of the model will be done in Google Colab. 
